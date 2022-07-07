@@ -18,7 +18,7 @@ export function TabelaTransacao() {
                 </thead>
                 <tbody>
                     {transacoes.map(transacao => (
-                        <tr key={transacao.id} className="product">
+                        <tr key={transacao.id}>
                             <td>{transacao.title}</td>
                             <td className={transacao.type}>
                                 {new Intl.NumberFormat('pt-BR', {

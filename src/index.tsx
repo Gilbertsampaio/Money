@@ -15,7 +15,7 @@ createServer({
       transacaos: [
         {
           id: 1,
-          title: 'Registro nº 1',
+          title: 'Freelance de website',
           type: 'colocada',
           category: 'Dev',
           amount: 6000,
@@ -23,18 +23,10 @@ createServer({
         },
         {
           id: 2,
-          title: 'Registro nº 2',
+          title: 'Aluguel',
           type: 'retirada',
-          category: 'Dev',
+          category: 'Casa',
           amount: 1100,
-          createdAt: new Date('2021-02-14 11:00:00')
-        },
-        {
-          id: 3,
-          title: 'Registro nº 3',
-          type: 'retirada',
-          category: 'Dev',
-          amount: 8300,
           createdAt: new Date('2021-02-14 11:00:00')
         }
       ]
